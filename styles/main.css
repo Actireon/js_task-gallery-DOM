@@ -1,0 +1,57 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .gallery__large-img {
+    width: 770px;
+    height: 540px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .gallery__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0; }
+  .gallery__thumb {
+    width: 142px;
+    height: 137px; }
+  .gallery__large-img,
+  .gallery .list-item__link {
+    padding: 3px;
+    border: 2px solid lightgrey;
+    border-radius: 2px; }
+  .gallery .list-item {
+    list-style: none; }
+    .gallery .list-item__link {
+      display: block;
+      height: 138px; }
+    .gallery .list-item:hover {
+      cursor: pointer;
+      -webkit-box-shadow: 0 0 0 2px #d9ccd9;
+              box-shadow: 0 0 0 2px #d9ccd9; }
+  .gallery .list-item:not(:last-of-type) {
+    margin-right: 5px; }
+
+/*# sourceMappingURL=main.css.map */
